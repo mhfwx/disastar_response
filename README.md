@@ -1,5 +1,21 @@
 # Disaster Response Pipeline Project
 
+## Project File Struture
+    .
+    ├── app     
+    │   ├── run.py                           # Flask file that runs app in cmd line
+    │   └── templates   
+    │       ├── go.html                      # Classification result page of web app
+    │       └── master.html                  # Main page of web app    
+    ├── data                   
+    │   ├── disaster_categories.csv          # the categories dataset
+    │   ├── disaster_messages.csv            # the messages dataset
+    │   └── process_data.py                  # Data Engineering process and clean the data
+    ├── models
+    │   └── train_classifier.py              # Train ML model and save the output file           
+    └── README.md
+
+
 ### Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
 
